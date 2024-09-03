@@ -1,0 +1,90 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.Inicio{
+    display: flex;
+    flex-direction: column;   
+}
+
+.Inicio img{
+    width: 300px;
+    height: 200px;
+}
+
+.Inicio h2{
+    background-color: rgba(77, 120, 120, 0.522);
+    height: 200px;
+    margin: 30px;
+    border-radius: 10px;
+    color: rgba(24, 24, 24, 0.892);
+    font-weight: 300; 
+    font-size: 20px;  
+}
+
+.Titulo{
+    display: flex;
+}
+
+.Titulo h1{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.Momentosimportantes img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+.momentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.Imagemserie{
+    width: 300px;
+    border-radius: 10px
+}
+
+.Texto h3{
+    font-weight: 200;
+    font-size: 15;
+    gap: 15px;
+    align-items: center;
+    margin: 50px;
+}
+
+.snopse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px;
+}
+
+.snopse h3{
+    font-weight: 200;
+    font-size: 15;
+    gap: 15px;
+    align-items: center;
+    margin: 50px;
+}
+
