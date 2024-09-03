@@ -22,6 +22,11 @@ body{
     font-size: 20px;  
 }
 
+.descrição h2{
+    display: flex;
+    align-items: center;
+}
+
 .Titulo{
     display: flex;
 }
@@ -67,7 +72,7 @@ h1{
 
 .Texto h3{
     font-weight: 200;
-    font-size: 15;
+    font-size: 23;
     gap: 15px;
     align-items: center;
     margin: 50px;
@@ -82,9 +87,21 @@ h1{
 
 .snopse h3{
     font-weight: 200;
-    font-size: 15;
+    font-size: 23px;
     gap: 15px;
     align-items: center;
     margin: 50px;
 }
 
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foto img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
